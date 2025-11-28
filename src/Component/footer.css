@@ -1,0 +1,42 @@
+.footer{
+    background-image: url(../images/Shop-bg.jpg);
+    margin-top: 120px;
+    padding: 10px 20px 100px;
+    border-top-left-radius: 240px;
+    border-top-right-radius: 240px;
+    text-align: center;
+}
+.copy{
+    font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
+    color: white;
+    font-size: 16px;
+    margin-top: 25px;
+    letter-spacing: 1.5;
+}
+/* ============ Responsive Footer ============ */
+
+@media (max-width: 992px) {
+  .footer {
+    border-top-left-radius: 120px;
+    border-top-right-radius: 120px;
+    padding: 60px 20px;
+  }
+
+  .copy {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer {
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    padding: 50px 15px;
+  }
+
+  .copy {
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+}

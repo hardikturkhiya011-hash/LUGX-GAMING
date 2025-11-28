@@ -1,0 +1,150 @@
+.shop_main {
+  background-image: url(../images/Shop-bg.jpg);
+  padding: 100px 20px 130px;
+  text-align: center;
+  /* justify-content: center; */
+  /* display: flex; */
+  border-bottom-left-radius: 150px;
+  border-bottom-right-radius: 150px;
+  font-family: "Poppins", sans-serif;
+}
+.ourshop {
+  /* color: white; */
+  font-size: 45px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+.home {
+  color: rgb(255, 255, 255);
+  font-weight: 550;
+  text-transform: none;
+}
+.color {
+  color: rgb(255, 255, 255);
+  font-weight: 550;
+  text-decoration: none;
+}
+.shop_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 120px;
+  background-color: #fff;
+}
+.regular {
+  color: black;
+  padding: 10px 18px;
+  border-radius: 15px;
+  font-weight: 600;
+  /* outline: none; */
+  border: none;
+  font-size: 15px;
+}
+.clickbtn {
+  color: black;
+  padding: 10px 18px;
+  border-radius: 15px;
+  font-weight: 600;
+  /* outline: none; */
+  border: none;
+  font-size: 15px;
+  background-color: #ee626b;
+}
+.shop-cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 15px 30px;
+  padding: 0px 40px;
+  gap: 20px;
+  flex-wrap: wrap;
+  /* display: flex; */
+  /* justify-content: space-evenly; */
+  /* align-items: center; */
+}
+.shop-main_cards {
+  background-color: #eeeeee;
+  border-radius: 25px;
+  position: relative;
+  height: 270px;
+  /* gap: 20px; */
+  /* padding: 0px 20px; */
+  /* width: 100%; */
+}
+.shop-img_card img {
+  width: 250px;
+  height: 190px;
+  border-radius: 25px;
+}
+.shop-price {
+  position: absolute;
+  top: 10px;
+  right: 17px;
+  background-color: #008af8;
+  color: white;
+  border-radius: 12px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60px;
+}
+.shop-real {
+  color: white;
+  font-weight: 700;
+  font-size: 19px;
+  font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+.shop-fake {
+  font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: line-through;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+.shop-left_side {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px;
+}
+.shop-name_games h6 {
+  color: black;
+  font-size: 15px;
+  font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
+  margin: 10px 0px;
+}
+.shop-name_games h5 {
+  color: black;
+  font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+}
+.shop-bag {
+  background-color: #ee626b;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 25px 0px;
+}
+.shop-bags {
+  color: white;
+  font-size: 20px;
+}
+.shop-main_cards:hover {
+  .shop-bag {
+    background-color: #008af8;
+  }
+  & .shop-name_games h5 {
+    color: #008af8;
+  }
+}

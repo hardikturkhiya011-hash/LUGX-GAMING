@@ -1,0 +1,175 @@
+.contacts{
+    background-image: url(../images/Shop-bg.jpg);
+    padding: 100px 20px 130px;
+    text-align: center;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+}
+.cu{
+    font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+.hc{
+    font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
+color: rgb(255, 255, 255);
+    font-weight: 550;
+    text-transform: none;
+}
+.main-contact{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    gap: 70px;
+}
+.contact-main{
+    margin-left: -90px;
+    /* padding-left: -100px; */
+    /* margin-top: 150px; */
+    /* text-align: left; */
+}
+.contact-part{
+    margin-left: 120px;
+    background-color: #f7f7f7;
+    max-width: 500px;
+    height: 620px;
+    text-align: left;
+    padding: 30px 70px ;
+    border-radius: 25px;
+}
+.us{
+    font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
+    color: #ee626b;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.say{
+    font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: black;
+}
+.template-pr{
+    font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #4a4a4a;
+    margin-left: 5px;
+    margin-bottom: 50px;
+}
+.addres{
+    font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #4a4a4a;
+}
+.addr{
+    font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
+    font-size: 15px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+.pho{
+    font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
+    color: #4a4a4a;
+    margin-bottom: 10px;
+}
+.numb{
+    font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+.emi{
+    font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
+    margin-top: 20px;
+    font-weight: 700;
+    color: #4a4a4a;
+    font-size: 15px;
+}
+.com{
+    font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.map{
+    margin-top: -20px;
+    /* margin-bottom: 120px; */
+    border-radius: 25px;
+    /* width: 500px; */
+    width: 100%;
+    max-width: 500px;
+    height: 320px;
+    border: none;
+}
+.first-inputs{
+    margin-top: 20px;
+    /* margin-left: 30px; */
+    /* margin-bottom: 0px; */
+    gap: 30px;
+    display: flex;
+    /* margin-left: 50px; */
+}
+.sec-input{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+.con-input{
+    font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
+  width: 220px;
+  padding: 15px 16px;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  outline: none;
+  font-size: 14px;
+  color: #333;
+  background: #fff;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease;
+  background-color: #eeeaea;
+}
+.con-input::placeholder {
+  color: #aaa;
+  font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
+}
+.con-btn{
+    font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
+    height: 45px;
+    width: 170px;
+    text-align: center;
+    font-size: 12px;
+    align-self: flex-start;
+    background-color: #ee626b;
+    color: white;
+    font-weight: 500;
+    line-height: 1;
+    border: none;
+    border-radius: 25px;
+}
+.con-btns{
+    margin-top: 12px;
+}
+.message-form {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 1rem;
+    flex-wrap: wrap;
+    /* text-align: center; */
+    /* border-radius: 25px; */
+    /* flex-wrap:wrap-reverse; */
+    /* width: 100%; */
+}
+.ym{
+    padding: 20px 15px;
+    width: 100%;
+    max-width: 480px;
+    height: 130px;
+    border-radius: 25px;
+}
