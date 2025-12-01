@@ -9,6 +9,7 @@ function Category() {
 
   const direct = (e) => {
     navigate("/product", { state: { cardData: e } });
+    window.scrollTo(0, 0);
   };
 
   const [section, setSection] = useState([]);
