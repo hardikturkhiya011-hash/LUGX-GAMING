@@ -59,19 +59,20 @@ function Home() {
             </div>
             <h3 className="msg">FREE STORAGE</h3>
           </div>
+
           <div class="cards">
             <div class="iconss">
-              <img src={icon_3} alt="images" />
+              <img src={icon_2} alt="images" />
               {/* <FaCloudDownloadAlt /> */}
             </div>
-            <h3 className="msg">FREE STORAGE</h3>
+            <h3 className="msg">USER MORE</h3>
           </div>
 
           
 
           <div class="cards">
             <div class="iconss">
-              <img src={icon_2} alt="images" />
+              <img src={icon_3} alt="images" />
             </div>
             <h3 className="msg">REPLY READY</h3>
           </div>
