@@ -1,7 +1,8 @@
 import React from "react";
 import icon_1 from "../images/featured-01.png";
+// import { FaCloudDownloadAlt } from "react-icons/fa";
 import icon_2 from "../images/featured-02.png";
-import icon_3 from "../images/featured-03.png";
+import icon_3 from "../images/featured-05.png";
 import icon_4 from "../images/featured-04.png";
 import "./HomePage.css";
 import TrandingSection from "../Component/TrandingSection";
@@ -54,20 +55,23 @@ function Home() {
           <div class="cards">
             <div class="iconss">
               <img src={icon_1} alt="images" />
+              {/* <FaCloudDownloadAlt /> */}
+            </div>
+            <h3 className="msg">FREE STORAGE</h3>
+          </div>
+          <div class="cards">
+            <div class="iconss">
+              <img src={icon_3} alt="images" />
+              {/* <FaCloudDownloadAlt /> */}
             </div>
             <h3 className="msg">FREE STORAGE</h3>
           </div>
 
-          <div className="cards">
-            <div classname="iconss">
-              <img src={icon_2} alt="images" />
-            </div>
-            <h3 className="msg">USER MORE</h3>
-          </div>
+          
 
           <div class="cards">
             <div class="iconss">
-              <img src={icon_3} alt="images" />
+              <img src={icon_2} alt="images" />
             </div>
             <h3 className="msg">REPLY READY</h3>
           </div>
